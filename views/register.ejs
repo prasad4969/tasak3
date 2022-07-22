@@ -1,0 +1,32 @@
+<html lang="en">
+    <%- include('../partials/head.ejs')  %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js Crash Course</title>
+</head>
+<body class="create"  >
+  
+  
+  <%- include('../partials/nav.ejs')  %>
+
+  <div class="create-blog content write">
+    <form  action="/register" method="POST">
+      <h3 class="porsche">Register</h3>
+      
+      <label class="porsche" for="user name">User Name:</label>
+      <input type="text" class="length" name="username" required>
+    
+      <label class="porsche" for="password">Password:</label>
+      <input type="text" class="length"  name="password" required>
+     
+       <button class="submit">Submit</button>
+    </form>
+  </div>
+
+
+
+
+  <%- include('../partials/footer.ejs')  %>
+</body>
+</html>

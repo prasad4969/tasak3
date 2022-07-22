@@ -1,0 +1,33 @@
+<html lang="en">
+    <%- include('../partials/head.ejs')  %>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js Crash Course</title>
+</head>
+<body class="create" >
+  
+  
+  <%- include('../partials/nav.ejs')  %>
+
+  <div class="blogs content">
+    <h1 class="audi">All Feeds</h1>
+  
+
+    <% if (feeds.length > 0) { %>
+        <% feeds.forEach(feed => { %> 
+        <a class="single" href="/feeds/<%=feed._id%>">
+              <h2 class="title"><%= feed.title %></h2>
+              <h4 class="body"><%= feed.body %></h4>
+              <p class="author"><%= feed.author %></p>
+        </a>  
+         <% }) %>
+      <% } else { %>
+        <p>There are no feeds to display...</p>
+      <% } %>
+</div>
+
+
+  <%- include('../partials/footer.ejs')  %>
+</body>
+</html>

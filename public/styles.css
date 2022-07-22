@@ -1,0 +1,163 @@
+footer{
+    color: red;
+    text-align: center;
+    margin: 80px auto 20px;
+    
+  }
+
+   /* nav & footer styles */
+   nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  nav li{
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  nav h1{
+    font-size: 3em;
+  }
+   nav a{
+    color: grey;
+    font-weight: 300;
+  }
+
+  nav p{
+    color: red;
+    font-weight: 300;
+  }
+
+  .indigo {
+    height:100px;
+    width:400px;
+    padding:10px;
+    margin-top: 20px;
+  }
+
+  textarea{
+    height: 60px;
+    width:400px;
+  }
+  .create-blog button{
+    margin-top: 20px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .create-blog{
+    flex-direction:column;
+  
+  }
+
+  .spice {
+   
+    padding:10px;
+    margin-top: 20px;
+    width:400px;
+  }
+
+
+  .style{
+    grid-auto-columns: 50px;
+    align-items:center;
+    align-content:space-eventually;
+    box-sizing: border-box;
+    background:  rgb(252 211 77);
+    justify-content:center;
+    margin-left: 340px;
+    width:500px;
+   
+
+  }
+
+  .create{
+    background: black;
+  }
+
+  .submit{
+    margin-left: 200px;
+    margin-bottom:10px;
+
+   
+  }
+
+  .audi{
+    color: rgb(251 191 36);
+  }
+
+  .single,text{
+    color: rgb(156 163 175);
+  }
+
+  .details{
+    position:relative;
+   
+
+  }
+  .delete{
+    position:absolute;
+    top:250;
+    right:60;
+    border-radius:50%;
+    padding:8px;
+    background:rgb(251 146 60);
+  }
+  .delete:hover{
+    cursor:pointer;
+    box-shadow:1px 2px 3px rgba(0,0,0,0.2);
+    color:red;
+    background: black;
+
+  }
+
+  .text{
+    color: black;
+    flex-direction:column;
+    background: rgb(147 197 253);
+    width:500px;
+    margin-left: 340px;
+}
+
+.write{
+  color: black;
+  flex-direction:column;
+  background:  rgb(153 246 228);
+  width:500px;
+  margin-left: 340px;
+}
+
+
+
+  .margin{
+    margin-top: 15px;
+  }
+
+  .porsche{
+    align-content: space-between;
+    justify-items: center;
+    margin-left: 190px;
+   
+  }
+
+  .length{
+    width:350px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+
+  .raw{
+    color:white;
+  }
